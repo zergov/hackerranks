@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int t = scanner.nextInt();
+		long[] strengths = new long[t];
+		
+		for(int i = 0; i < t; i++)
+			strengths[i] = scanner.nextLong();
+		
+		for(int i = 0; i < t; i++)
+			wetShark(strengths[i]);
+	}
+	
+
+	/**
+	 * Calculate the square where the WetShark will stop.
+	 * @param s
+	 */
+	private static void wetShark(long s){
+		
+	}
+
+}
